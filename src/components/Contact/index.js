@@ -4,6 +4,7 @@ import AnimatedLetters from '../AnimatedLetters';
 import { useEffect, useState, useRef } from 'react';
 import emailjs from '@emailjs/browser'
 
+
 const Contact = () => {
 
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -19,13 +20,10 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault()
 
-        emailjs
-            .sendForm(
-                'gmail',
-                'template_rbmy3er',
-                refForm.current,
-                'cYLRUIdofe5vYGEjo'
-            )
+        emailjs.sendForm("service_ice67k3",
+            "template_zwxbvwr",
+            refForm.current,
+            'cYLRUIdofe5vYGEjo')
             .then(
                 () => {
                     alert('Message Sent')
@@ -45,7 +43,7 @@ const Contact = () => {
                 <div className='text-zone'>
                     <h1>
                         <AnimatedLetters
-                        letterClass={letterClass}
+                            letterClass={letterClass}
                             strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'M', 'e']}
                             idx={15} />
                     </h1>
@@ -64,20 +62,20 @@ const Contact = () => {
                                     <input type='email' name='email' placeholder='Email' required />
                                 </li>
                                 <li>
-                                    <input placeholder='Subject' type='text' name='subject' required/>
+                                    <input placeholder='Subject' type='text' name='subject' required />
                                 </li>
                                 <li>
                                     <textarea placeholder='Message' name='message' required></textarea>
                                 </li>
                                 <li>
-                                    <input type='submit' className='flat-button' value='Contact'/>
+                                    <input type='submit' className='flat-button' value='Contact' />
                                 </li>
                             </ul>
                         </form>
                     </div>
 
                 </div>
-
+                
             </div>
             <Loader type='pacman' />
         </>
