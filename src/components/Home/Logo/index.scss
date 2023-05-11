@@ -20,7 +20,7 @@
 
   @media (max-width: 415px) {
 
-    width: 32.5%;
+    width: 1%;
     height: 21%;
     background-color: yellow;
     top: 55px;
@@ -28,6 +28,26 @@
   }
 
   }
+
+  .borderz2{
+    position: absolute;
+    width: 105%;
+    height: 1%;
+    background-color: yellow;
+    top: -10px;
+    left: -10px;
+    
+  
+    @media (max-width: 415px) {
+  
+      width: 32.5%;
+      height: 21%;
+      background-color: yellow;
+      top: 55px;
+      left: 295px;
+    }
+  
+    }
   
 
 

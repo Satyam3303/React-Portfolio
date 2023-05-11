@@ -85,6 +85,7 @@ const Logo = () => {
         solidLogoRef.current,
         {
           opacity: 0,
+          
         },
         {
           opacity: 1,
@@ -100,8 +101,8 @@ const Logo = () => {
      
      <div className="borderz" ref={borderz}></div>
      <div className="borderz" ref={borderz2}></div>
-     <div className="borderz" ref={borderz3}></div>
-     <div className="borderz" ref={borderz4}></div>
+     <div className="borderz2" ref={borderz3}></div>
+     <div className="borderz2" ref={borderz4}></div>
 
       <img
         className="solid-logo"
