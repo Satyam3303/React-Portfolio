@@ -15,11 +15,21 @@
 img{
     display: block;
     margin: 8px auto;
-    width: 24px;
+    width: 34px;
     height: auto;
+    border-radius: 50%;
+    
+    @media (max-width: 415px) {
+       width: 30px;
+    }
 
     &.sub-logo{
         width: 50px;
+        
+        @media (max-width: 415px) {
+        
+            width: 45px;
+        }
     }
     }
 }
@@ -72,6 +82,11 @@ nav{
             transition: all 0.3s ease-out;
         }
 
+        @media (max-width: 415px) {
+        
+            font-size: 18px;
+        }
+
         &:first-child{
             &::after{
                 content: 'HOME';
@@ -106,12 +121,22 @@ ul{
     list-style: none;
     text-align: center;
 
+    @media (max-width: 415px) {
+        
+    
+    }
+
     li{
         a{
             padding: 7px 0;
             display: block;
             font-size: 15px;
             line-height: 16px;
+
+            @media (max-width: 415px) {
+        
+                font-size: 11px;
+            }
 
             &:hover svg{
                 color: #ffd700;

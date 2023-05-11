@@ -1,6 +1,12 @@
 .contact-form{
     width: 100%;
-    margin-top: 20px;
+    margin-top: 120px;
+    position: relative;
+
+    @media (max-width: 415px) {
+        width: 200%;
+        left: 50px;
+     }
 
     ul{
         padding: 0;
@@ -25,6 +31,8 @@
             float: left;
             clear: none;
 
+            
+
             &:first-child{
                 margin-left: 0;
             }
@@ -41,6 +49,9 @@
         color: #fff;
         padding:0 20px;
         box-sizing: border-box;
+        @media (max-width: 415px) {
+            font-size: 12px;
+         }
     }
 
     textarea{

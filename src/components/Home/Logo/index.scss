@@ -10,12 +10,27 @@
   left: auto;
   margin: auto;
 
-  svg {
-    width: 100%;
-    height: auto;
-    bottom: 0;
-    transform: rotateZ(30deg) !important;
+  .borderz{
+  position: absolute;
+  width: 105%;
+  height: 69%;
+  background-color: yellow;
+  top: -10px;
+  left: -10px;
+
+  @media (max-width: 415px) {
+
+    width: 32.5%;
+    height: 21%;
+    background-color: yellow;
+    top: 55px;
+    left: 295px;
   }
+
+  }
+  
+
+
 
   .solid-logo {
     position: absolute;
@@ -26,12 +41,20 @@
     margin: auto;
     width: 100%;
     opacity: 0;
-    transform: rotateZ(30deg) !important;
     z-index: 1;
-  }
+
+    @media (max-width: 415px) {
+    position: absolute;
+    top: 60px;
+    left: 300px;
+    margin: auto;
+    width: 30%;
+    opacity: 0;
+    z-index: 1;
+    }
 }
 
-.svg-container {
-  stroke: #ffd700;
-  stroke-width: 10;
+
+
+
 }
