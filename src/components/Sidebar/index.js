@@ -3,8 +3,8 @@ import { Link, NavLink } from 'react-router-dom'
 import LogoS from '../../assets/images/logo-s.jpg'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faLinkedin,faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faHome, faUser, faEnvelope, faArchive } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin,faGithub, faAirbnb } from '@fortawesome/free-brands-svg-icons'
 
 const email = 'mailto:shivamsatyam209@gmail.com';
 
@@ -34,6 +34,13 @@ const Sidebar = () => (
             className="contact-link" 
             to="/contact">
                 <FontAwesomeIcon icon={faEnvelope} color="4d4d4e" />
+            </NavLink>
+
+            <NavLink exat="true" 
+            activeclassname="active" 
+            className="project-link" 
+            to="/project">
+                <FontAwesomeIcon icon={faArchive} color="4d4d4e" />
             </NavLink>
         </nav>
         <ul>
