@@ -85,7 +85,7 @@ const Projects = () => {
             </div>
             
         </div>
-        <Loader type='pacman'/>
+        <Loader type='pacman' style={{zIndex:150}}/>
 
         </>
   )

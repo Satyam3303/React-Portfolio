@@ -1,5 +1,6 @@
 .project-page{
 
+
     .text-zone{
         position: absolute;
         left: 35%;
@@ -21,6 +22,7 @@
         position:absolute;
         left: 400px;
         @media (max-width: 415px) {
+            
             display: none;           
         }
     }
@@ -39,7 +41,8 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr); 
         position:absolute;
-        left: -40px;
+        
+        left: -70px;
         @media (min-width: 415px) {
             display: none;           
         }
@@ -109,4 +112,3 @@
 
     }
 }
-

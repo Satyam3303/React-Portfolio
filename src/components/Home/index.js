@@ -8,7 +8,7 @@ import Loader from 'react-loaders';
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const nameArray = ['S','h','i','v','a','m']
-    const jobArray = ['w','e','b',' ','d','e','v','e','l','o','p','e','r']
+    const jobArray = ['An', ' ' ,'Aspiring', ' ', 'Fullstack',' ', 'Delevopler']
 
     useEffect(() => {
         setTimeout(() => {
@@ -43,12 +43,9 @@ const Home = () => {
                 <Link to="/contact" className='flat-button'>Contact Me</Link>
             </div>
             <Logo />
-            <div className="line-hor1"></div>
-            <div className="line-hor2"></div>
-            <div className="line-ver1"></div>
-            <div className="line-ver2"></div>
+           
         </div>
-        <Loader type='pacman'/>
+        <Loader type='pacman' style={{zIndex:150}}/>
 
         </>
     )

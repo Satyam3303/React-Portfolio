@@ -4,7 +4,7 @@ import LogoS from '../../assets/images/logo-s.jpg'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faUser, faEnvelope, faArchive } from '@fortawesome/free-solid-svg-icons'
-import { faLinkedin,faGithub, faAirbnb } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin,faGithub } from '@fortawesome/free-brands-svg-icons'
 
 const email = 'mailto:shivamsatyam209@gmail.com';
 
