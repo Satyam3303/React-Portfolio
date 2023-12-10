@@ -35,13 +35,14 @@ const Logo = () => {
       <img
         className="solid-logo2"
         ref={solidLogoRef}
-        src={Profile}
+        src={LogoS}
+        
         alt="  Developer"
       />
       <img
         className="solid-logo"
         ref={solidLogoRef}
-        src={LogoS}
+        src={Profile}
         alt="  Developer"
       />
     </div>
