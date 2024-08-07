@@ -32,7 +32,7 @@ useEffect(() => {
                     idx={15}
                 />
                 </h1>
-                <p>I’ve been an aspiring web developer and software developer. I’m passionate about creating codes that are easy to use.</p>
+                <p>I’ve been an aspiring web developer and software developer. I’m passionate about creating codes that are easy to use. And by the way I like video games a lot.</p>
 
             </div>
 
